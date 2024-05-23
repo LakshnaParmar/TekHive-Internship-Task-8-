@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+
+        <div class="left">
+         <div class="left-img">
+                <img src="head.png" class="inner-img one">
+                <img src="img.png" class="inner-img">
+         </div>
+        </div>
+
+
+      <div class="right">
+        <div class="outter">
+      <div class="left-head">
+        <h2>To-Do List <i class="fa-solid fa-book"></i></h2>
+        <div class="to-do-list">
+            <input type="text" id="todoType" placeholder="Add Your Text">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="ulList">
+            <!-- <li class="check">Task 1</li>
+            <li class="check">Task 2</li>
+            <li class="check">Task 3</li> -->
+            
+        </ul>
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
